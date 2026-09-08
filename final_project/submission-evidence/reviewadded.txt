@@ -1,0 +1,17 @@
+COMMAND:
+curl -i -X PUT "http://localhost:5000/customer/auth/review/1?review=Excellent%20book%20for%20the%20final%20project%20test." \
+  -b cookies.txt
+
+OUTPUT:
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 124
+ETag: W/"7c-DiPrUcbUlia+RQwyzHaua2gitSU"
+Date: Tue, 08 Sep 2026 05:45:20 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Review successfully added/updated","reviews":{"grader_login_user":"Excellent book for the final project test."}}
+--- Review after adding (GET /review/1) ---
+{"grader_login_user":"Excellent book for the final project test."}

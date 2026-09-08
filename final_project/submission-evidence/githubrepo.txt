@@ -1,0 +1,9 @@
+COMMAND:
+curl -s "https://api.github.com/repos/EZDAMIR/expressBookReviews" | python3 -c "import sys, json; d=json.load(sys.stdin); print(json.dumps({'full_name': d['full_name'], 'fork': d['fork'], 'parent': d['parent']['full_name']}, indent=2))"
+
+OUTPUT:
+{
+  "full_name": "EZDAMIR/expressBookReviews",
+  "fork": true,
+  "parent": "ibm-developer-skills-network/expressBookReviews"
+}
