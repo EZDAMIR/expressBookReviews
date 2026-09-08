@@ -8,11 +8,11 @@ OUTPUT:
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 227
-ETag: W/"e3-loYRJ6QqvSlHsMqJRXfEGzKZ+V8"
-Set-Cookie: connect.sid=s%3AoIFgyIIGOHZ4L_zNu-7-j2nzfgoH465o.TBFt2CEftV%2Boh8SS9OosgyQUutOEUbJXW9SCq9r6Oyo; Path=/; HttpOnly
-Date: Tue, 08 Sep 2026 05:45:12 GMT
+Content-Length: 226
+ETag: W/"e2-izKiYFldIGnPGdI8g3PIC7FnF50"
+Set-Cookie: connect.sid=s%3AtmJsX0ebW3jKnK9n1vM7ifOiI_AJ8zzB.h8Vy8kjiOeju5s9yxPT1q3IPLMCyyNWW4riMVnSV2WQ; Path=/; HttpOnly
+Date: Tue, 08 Sep 2026 05:54:19 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-{"message":"User successfully logged in","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdyYWRlcl9sb2dpbl91c2VyIiwiaWF0IjoxNzg4ODQ2MzEyLCJleHAiOjE3ODg4NDk5MTJ9.0bQxx2BiNPgtEqi84BeQb4duN-NHgn4-h3B3EQY0pno"}
+{"message":"User successfully logged in","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdyYWRlcl90ZXN0X3VzZXIiLCJpYXQiOjE3ODg4NDY4NTksImV4cCI6MTc4ODg1MDQ1OX0.1szYKv3J1RIkB6dbReKUiy2t2ja1JHY7mgmvyzMH7GE"}
